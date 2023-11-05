@@ -1,19 +1,21 @@
 {
-  "name": "tango",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "pinia": "^2.1.7",
-    "vue": "^3.3.4"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^4.4.0",
-    "vite": "^4.4.11",
-    "vite-plugin-pwa": "^0.16.7"
-  }
+	"name": "tango",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"generate-pwa-assets": "pwa-assets-generator --preset android public/fem.svg"
+	},
+	"dependencies": {
+		"pinia": "^2.1.7",
+		"vue": "^3.3.4"
+	},
+	"devDependencies": {
+		"@vite-pwa/assets-generator": "^0.0.10",
+		"@vitejs/plugin-vue": "^4.4.0",
+		"vite": "^4.4.11",
+		"vite-plugin-pwa": "^0.16.7"
+	}
 }
