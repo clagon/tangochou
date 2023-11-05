@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", "Noto Sans JP", sans-serif;
+}
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+#app {
+	width: 100%;
+	height: 100%;
+}
