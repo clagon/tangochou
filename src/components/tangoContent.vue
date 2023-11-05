@@ -46,7 +46,7 @@ const counterStore = useCounterStore();
 	left: 0;
 	transform: translateY(-50%);
 	width: 50px;
-	height: 50px;
+	height: 150px;
 	user-select: none;
 }
 .prev:hover {
@@ -61,7 +61,7 @@ const counterStore = useCounterStore();
 	right: 0;
 	transform: translateY(-50%);
 	width: 50px;
-	height: 50px;
+	height: 150px;
 	border-radius: 50%;
 }
 .next:hover {
