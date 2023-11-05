@@ -50,7 +50,7 @@ const counterStore = useCounterStore();
 	user-select: none;
 }
 .prev:hover {
-	background-color: #ccc;
+	background-color: #eee;
 }
 .next {
 	display: flex;
@@ -65,6 +65,6 @@ const counterStore = useCounterStore();
 	user-select: none;
 }
 .next:hover {
-	background-color: #ccc;
+	background-color: #eee;
 }
 </style>
