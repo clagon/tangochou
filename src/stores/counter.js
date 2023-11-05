@@ -4,10 +4,10 @@ import { ref, watch } from "vue";
 export const useCounterStore = defineStore("counter", () => {
 	const index = ref(0);
 	const isDefaultLangJA = ref(true);
-	const isJA = ref(true);
+	const isJA = ref(false);
 	const length = ref(1000);
 	function next() {
-		isJA.value = isDefaultLangJA.value;
+		isJA.value = !isDefaultLangJA.value;
 		index.value++;
 		if (index.value > length.value - 1) {
 			index.value = length.value - 1;
@@ -17,7 +17,7 @@ export const useCounterStore = defineStore("counter", () => {
 		isJA.value = !newState;
 	});
 	function prev() {
-		isJA.value = isDefaultLangJA.value;
+		isJA.value = !isDefaultLangJA.value;
 		index.value--;
 		if (index.value < 0) {
 			index.value = 0;

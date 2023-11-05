@@ -62,7 +62,7 @@ const counterStore = useCounterStore();
 	transform: translateY(-50%);
 	width: 50px;
 	height: 150px;
-	border-radius: 50%;
+	user-select: none;
 }
 .next:hover {
 	background-color: #ccc;
