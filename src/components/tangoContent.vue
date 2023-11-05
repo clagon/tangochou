@@ -35,6 +35,7 @@ const counterStore = useCounterStore();
 	height: 100%;
 	font-size: 24px;
 	text-align: center;
+	user-select: none;
 }
 .prev {
 	display: flex;
@@ -46,7 +47,7 @@ const counterStore = useCounterStore();
 	transform: translateY(-50%);
 	width: 50px;
 	height: 50px;
-	border-radius: 50%;
+	user-select: none;
 }
 .prev:hover {
 	background-color: #ccc;

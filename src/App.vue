@@ -56,6 +56,7 @@ document.body.addEventListener("keydown", e => {
 	padding: 10px 30px;
 	margin-bottom: 20px;
 	gap: 10px;
+	user-select: none;
 }
 input[type="checkbox"]:checked + .mode_txt {
 	flex-direction: row-reverse;
