@@ -22,6 +22,12 @@ document.body.addEventListener("keydown", e => {
 
 <template>
 	<div class="container">
+		<input class="mode" type="checkbox" id="mode" v-model="counterStore.isDefaultLangJA" />
+		<label for="mode" class="mode_txt">
+			<span>JA</span>
+			<span>-></span>
+			<span>EN</span>
+		</label>
 		<tango-content :data="data" />
 	</div>
 </template>
@@ -34,5 +40,24 @@ document.body.addEventListener("keydown", e => {
 	justify-content: center;
 	align-items: center;
 	position: relative;
+	flex-direction: column;
+}
+.mode {
+	display: none;
+}
+.mode_txt {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	font-size: 24px;
+	border-radius: 9999px;
+	border: 1px solid #ccc;
+	padding: 10px 30px;
+	margin-bottom: 20px;
+	gap: 10px;
+}
+input[type="checkbox"]:checked + .mode_txt {
+	flex-direction: row-reverse;
 }
 </style>
