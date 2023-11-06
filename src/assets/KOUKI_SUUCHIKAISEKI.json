@@ -48,7 +48,7 @@
 	{ "ja": "3次スプライン関数", "en": "cubic spline function" },
 	{ "ja": "変曲点", "en": "inflection point" },
 	{ "ja": "自然スプライン関数", "en": "natural spline function" },
-	{ "ja": "数値微分", "en": "numerical diefferentiation" },
+	{ "ja": "数値微分", "en": "numerical differentiation" },
 	{ "ja": "差分", "en": "difference" },
 	{ "ja": "前方差分, 前進差分", "en": "forward difference" },
 	{ "ja": "後方差分, 後退差分", "en": "backward difference" },
